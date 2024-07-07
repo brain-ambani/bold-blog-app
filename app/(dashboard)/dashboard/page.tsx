@@ -1,9 +1,13 @@
 import { SignedIn, UserButton } from "@clerk/nextjs";
 
+<<<<<<< HEAD
 import { checkUser } from "@/lib/checkUser";
 
 const DashboardPage = async () => {
   const user = await checkUser();
+=======
+const DashboardPage = () => {
+>>>>>>> 17733d6104f2637f8510c6c7bd186b745c8c681f
   return (
     <main className="w-3/4 mx-auto p-4">
       <div className="flex justify-between items-center">
